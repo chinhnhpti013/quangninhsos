@@ -35,7 +35,7 @@ export const scanRegistrationImage = async (base64Image: string): Promise<CarInf
     contents: [
       {
         parts: [
-          { text: "Hãy quét ảnh đăng kiểm xe ô tô này và trích xuất các thông tin sau dưới dạng JSON: Biển kiểm soát (licensePlate), Hãng xe (brand), Model (model), Năm sản xuất (year), Phiên bản (version), Số khung/VIN (vin), Số km đã chạy (mileage - nếu có, nếu không để trống), Tình trạng xe (condition - mặc định 'Tốt'), Khu vực (region - mặc định 'Quảng Ninh'). Trả về JSON thuần túy." },
+          { text: "Hãy quét ảnh đăng ký hoặc đăng kiểm xe ô tô này và trích xuất các thông tin sau dưới dạng JSON: Biển kiểm soát (licensePlate), Hãng xe (brand), Model (model), Năm sản xuất (year), Phiên bản (version), Số khung/VIN (vin), Số km đã chạy (mileage - nếu có, nếu không để trống), Tình trạng xe (condition - mặc định 'Tốt'), Khu vực (region - mặc định 'Quảng Ninh'). Trả về JSON thuần túy." },
           { inlineData: { mimeType: "image/jpeg", data: base64Image.split(",")[1] || base64Image } }
         ]
       }

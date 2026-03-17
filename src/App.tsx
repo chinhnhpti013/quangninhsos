@@ -196,7 +196,7 @@ export default function App() {
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-sm font-bold text-primary uppercase tracking-tight flex items-center gap-2">
                 <Upload size={16} />
-                AI Scan Đăng Kiểm
+                AI SCAN ĐĂNG KÝ/ĐĂNG KIỂM
               </h2>
               {isScanning && (
                 <div className="flex items-center gap-2 text-xs text-primary font-medium animate-pulse">
@@ -214,7 +214,7 @@ export default function App() {
                 <Car size={32} />
               </div>
               <div>
-                <p className="font-bold text-slate-700">Tải lên ảnh đăng kiểm</p>
+                <p className="font-bold text-slate-700">Tải lên ảnh đăng ký/đăng kiểm</p>
                 <p className="text-xs text-slate-500 mt-1">Kéo thả hoặc click để chọn ảnh (JPG, PNG)</p>
               </div>
               <input 

@@ -1,7 +1,7 @@
 {
-   "name": "quangninhsos",
-  "version": "1.0.0",
+  "name": "react-example",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
@@ -20,7 +20,6 @@
     "lucide-react": "^0.546.0",
     "motion": "^12.23.24",
     "react": "^19.0.0",
-    "next": "latest",
     "react-dom": "^19.0.0",
     "recharts": "^3.8.0",
     "tailwind-merge": "^3.5.0",
